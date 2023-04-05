@@ -16,7 +16,7 @@ export default function Home() {
           Get farted by editing <code>pages/index.js</code>
         </p>
     <p>Editing index.js</p>
-    <button onclick="() => alert('told you not to')">dont click</button>
+    <button onclick={() => alert('told you not to')}>dont click</button>
       </main>
 
       <Footer />
